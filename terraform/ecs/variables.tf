@@ -2,21 +2,21 @@ variable "availability_zones" {
   type        = list(string)
   description = "AWS Availability Zones"
   default = [
-    "us-east-1a",
-    "us-east-1b",
-    "us-east-1c",
-    "us-east-1e",
+    "us-west-2a",
+    "us-west-2b",
+    "us-west-2c",
+    "us-west-2d",
   ]
 }
 
 variable "key_pair" {
   description = "AWS EC2 Key Pair Pem"
-  default     = "ee-default-keypair"
+  default     = "MyKey"
 }
 
 variable "ami" {
   description = "Amazon Linux 2 AMI"
-  default     = "ami-0c3dda3deab25a563"
+  default     = "ami-063ee9a327382ca16"
 }
 
 variable "instance_type" {

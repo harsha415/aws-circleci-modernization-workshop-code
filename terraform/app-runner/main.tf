@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1"
+  region = "us-west-2"
 }
 
 resource "aws_apprunner_auto_scaling_configuration_version" "aws-mod-workshop" {

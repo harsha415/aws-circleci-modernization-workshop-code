@@ -1,7 +1,7 @@
 terraform {
   required_version = ">= 0.13.5"
   backend "remote" {
-    organization = "[Your Org Name]"
+    organization = "test-aws-harsha415"
 
     workspaces {
       name = "arm-aws-ecs"
@@ -10,7 +10,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1"
+  region = "us-west-2"
 }
 
 data "template_file" "user_data" {

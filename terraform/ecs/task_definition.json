@@ -18,7 +18,7 @@
       "logDriver": "awslogs",
       "options": {
         "awslogs-group": "awslogs-app-arm",
-        "awslogs-region": "us-east-1",
+        "awslogs-region": "us-west-2",
         "awslogs-stream-prefix": "devrel-app-arm"
       }
     }
